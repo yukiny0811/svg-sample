@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <svg version="1.1" width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+      <circle cx="250" cy="250" r="100" style="stroke:black; fill:white;" />
+      <g id="lines">
+        <line x1="0" y1="0" x2="500" y2="500" style="stroke:black;" />
+        <line x1="0" y1="500" x2="500" y2="0" style="stroke:black;" />
+      </g>
+      <use xlink:href="#lines" transform="scale(1 0.5) translate(0 0)" />
+      <polyline points="0 0, 100 98, 19 50, 20 278, 198 358" style="stroke:red; fill:none;" />
+      <path d="M 300 100 L 100 100 A 100 200 0 0 0 300 100" style="stroke:blue; fill:none;"/>
+      <text x="300" y="300" style="font-family:sans-serif; font-size:50px; stroke:none; fill:black;">SVG</text>
+    </svg>
+  </body>
+</html>
+
